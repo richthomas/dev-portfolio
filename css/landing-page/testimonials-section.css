@@ -1,0 +1,112 @@
+#testimonials-section {
+  padding: 80px 15px;
+  background: #f9f8fc;
+}
+
+#testimonials-section .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#testimonials-section .title .square {
+  background: #ffeded;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 23px;
+}
+
+#testimonials-section .title h1 {
+  position: relative;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #16171b;
+  z-index: 1;
+  letter-spacing: 4px;
+}
+
+
+#testimonials-section .testimonials-container .main{
+  background: white;
+  padding: 80px;
+}
+
+#testimonials-section .testimonials-container .main .header{
+  display: flex;
+  padding-bottom: 50px;
+}
+
+#testimonials-section .testimonials-container .main .header .user-img{
+  width: 150px;
+}
+
+#testimonials-section .testimonials-container .main .header .user-img img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+#testimonials-section .testimonials-container .main .info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+#testimonials-section .testimonials-container .main .info h4{
+  color: #13161d;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+#testimonials-section .testimonials-container .main .info span{
+  color: #929294;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+#testimonials-section .testimonials-container .main p{
+  color: #929294;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+  #testimonials-section .title h1 {
+    font-size: 2rem;
+  }
+  #testimonials-section .testimonials-container .main .info h4{
+    color: #13161d;
+    font-size: .6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  #testimonials-section .testimonials-container .main .info span{
+    color: #929294;
+    font-size: .8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 1.3rem;
+  }
+  #testimonials-section .testimonials-container .main p{
+    font-size: .9rem;
+  }
+}
