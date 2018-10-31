@@ -94,11 +94,11 @@
 /* Box Locations */
 #portfolio-section .portfolio-container .box.image1{
   grid-column: 1 / 3;
-  grid-row: 1 / 2;
+  grid-row: 1 / 3;
 }
 
 #portfolio-section .portfolio-container .box.image1 .image{
-  background: url('https://cdn.dribbble.com/users/2056133/screenshots/4834249/bitco.io_1x.jpg');
+  background: url('https://cdn.pixabay.com/photo/2015/10/12/15/11/cafe-984275_1280.jpg');
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -122,7 +122,7 @@
 
 #portfolio-section .portfolio-container .box.image3{
   grid-column: 1 / 2;
-  grid-row: 2 / 4;
+  grid-row: 3 / 5;
 }
 
 #portfolio-section .portfolio-container .box.image3 .image{
@@ -136,7 +136,7 @@
 
 #portfolio-section .portfolio-container .box.image4{
   grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 #portfolio-section .portfolio-container .box.image4 .image{
@@ -150,7 +150,7 @@
 
 #portfolio-section .portfolio-container .box.image5{
   grid-column: 1 / 2;
-  grid-row: 4 / 6;
+  grid-row: 5 / 6;
 }
 
 #portfolio-section .portfolio-container .box.image5 .image{
@@ -163,8 +163,8 @@
 }
 
 #portfolio-section .portfolio-container .box.image6{
-  grid-column: 2 / 3;
-  grid-row: 3 / 6;
+  grid-column: 2 / 4;
+  grid-row: 4 / 6;
 }
 
 #portfolio-section .portfolio-container .box.image6 .image{
@@ -176,19 +176,6 @@
   background-repeat: no repeat;
 }
 
-#portfolio-section .portfolio-container .box.image7{
-  grid-column: 3 / 4;
-  grid-row: 4 / 6;
-}
-
-#portfolio-section .portfolio-container .box.image7 .image{
-  background: url('https://cdn.dribbble.com/users/332776/screenshots/3823968/dribbble2_1x.jpg');
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no repeat;
-}
 
 /* Tablets */
 @media only screen and (max-width: 960px){
