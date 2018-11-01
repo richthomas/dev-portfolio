@@ -243,8 +243,4 @@
     grid-column: 1 / 4;
     grid-row: 6 / 7;
   }
-  #portfolio-section .portfolio-container .box.image7{
-    grid-column: 1 / 4;
-    grid-row: 7 / 8;
-  }
 }
