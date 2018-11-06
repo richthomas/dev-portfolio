@@ -64,13 +64,14 @@
   color: #13161d;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   margin-bottom: 1rem;
 }
 
 #testimonials-section .testimonials-container .main .info span{
   color: #929294;
   font-weight: 400;
+  font-size: .9rem;
   text-transform: capitalize;
   letter-spacing: 2px;
 }
@@ -79,7 +80,7 @@
   color: #929294;
   font-weight: 400;
   letter-spacing: 2px;
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.9;
 }
 
