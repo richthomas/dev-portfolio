@@ -112,7 +112,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image2 .image{
-  background: url('../..img/chef-site.png');
+  background: url('../../img/chef-site.png');
   height: 100%;
   width: 100%;
   background-size: cover;
