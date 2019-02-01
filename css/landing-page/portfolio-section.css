@@ -112,7 +112,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image2 .image{
-  background: url('https://cdn.dribbble.com/users/1133834/screenshots/4831227/trader_1x.png');
+  background: url('../..img/chef-site.png');
   height: 100%;
   width: 100%;
   background-size: cover;
